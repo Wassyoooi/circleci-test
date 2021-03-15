@@ -11,13 +11,13 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "test 1"
+      - run: echo "Hello test 1"
   test2:
     docker:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "test 2"
+      - run: echo "Hello test 2"
 
 workflows:
   version: 2
