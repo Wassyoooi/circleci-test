@@ -4,6 +4,6 @@ version: 2
      docker:
        - image: circleci/ruby:2.4.1
      steps:
-       - checkout
+       - checkout:
        - run: echo "A first hello"
        
