@@ -1,1 +1,1 @@
-prt("Hello Wassyoooi")
+print("Hello CircleCI")
